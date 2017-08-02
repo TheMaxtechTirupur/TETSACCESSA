@@ -67,5 +67,8 @@
       <gap:plugin name="org.apache.cordova.splashscreen"/>
       <gap:plugin name="org.apache.cordova.vibration"/> 
       <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />   
+
+      <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+      
     <access origin="*" />
 </widget>
