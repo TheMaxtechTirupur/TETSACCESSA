@@ -50,33 +50,7 @@ var app = {
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        //var parentElement = document.getElementById(id);
-        //var listeningElement = parentElement.querySelector('.listening');
-        //var receivedElement = parentElement.querySelector('.received');
-
-        //listeningElement.setAttribute('style', 'display:none;');
-        //receivedElement.setAttribute('style', 'display:block;');
-
-        //console.log('Received Event: ' + id);
-        var pushNotification = window.plugins.pushNotification;
-        if (device.platform == 'android' || device.platform == 'Android' ) {
-            //alert("Android Register called");
-            pushNotification.register(this.successHandler, this.errorHandler,{"senderID":"2994127184","ecb":"app.onNotificationGCM"});
-        } else if(device.platform == "Win32NT"){
-            //alert("Windows Register called");
-            pushNotification.register(this.successHandler, this.errorHandler,{"channelName": "channelName","ecb": "app.onNotificationWP8","uccb": "app.channelHandler","errcb": "app.jsonErrorHandler"});
-            pushNotification.register(this.successHandler, this.errorHandler,{"channelName": "channelName","ecb": "app.onNotificationWP8","uccb": "app.channelHandler","errcb": "app.jsonErrorHandler"});
-            pushNotification.register(this.successHandler, this.errorHandler,{"channelName": "channelName","ecb": "app.onNotificationWP8","uccb": "app.channelHandler","errcb": "app.jsonErrorHandler"});
-            pushNotification.register(this.successHandler, this.errorHandler,{"channelName": "channelName","ecb": "app.onNotificationWP8","uccb": "app.channelHandler","errcb": "app.jsonErrorHandler"});
-            
-        } else { 
-            //alert("Register called");
-            pushNotification.register(this.successHandler, this.errorHandler,{"badge":"true","sound":"true","alert":"true","ecb":"app.onNotificationAPN"});
-        } 
-
-
-
+    receivedEvent: function(id) { 
          
     },
     // result contains any message sent from the plugin call
@@ -97,64 +71,13 @@ var app = {
 
     },
     onNotificationGCM: function(e) {
-        switch( e.event )
-        {
-            case 'registered':
-                if ( e.regid.length > 0 )
-                {
-                    //console.log("Regid " + e.regid);
-                    //alert('registration id = '+e.regid);
-                    $.jStorage.set("gcmid", e.regid);
-                }
-            break;
- 
-            case 'message':
-              // this is the actual push notification. its format depends on the data model from the push server
-              //alert('message = '+e.message+' msgcnt = '+e.price);
-             // alert('message = '+e.regid+' msgcnt = '+ e.event);
-             alert('message = ' + e.message + ' payload message: ' + e.payload.message + 
-                'e payload msgcnt: ' + e.payload.msgcnt + ' e.msg: ' + e.msg);
-             
-
-            break;
- 
-            case 'error':
-              alert('GCM error = '+e.msg);
-            break;
- 
-            default:
-              alert('An unknown GCM event has occurred');
-              break;
-        }
+         
     },
     onNotificationAPN: function(event) {
-        var pushNotification = window.plugins.pushNotification;
-        //alert("Running in JS - onNotificationAPN - Received a notification! " + event.alert);
-        
-        if (event.alert) {
-            navigator.notification.alert(event.alert);
-        }
-        if (event.badge) {
-            pushNotification.setApplicationIconBadgeNumber(this.successHandler, this.errorHandler, event.badge);
-        }
-        if (event.sound) {
-            var snd = new Media(event.sound);
-            snd.play();
-        }
+       
     } ,
     onNotificationWP8: function(e) {
-        //alert("hiii");
-        if (e.type == "toast" && e.jsonContent) {
-        pushNotification.showToastNotification(successHandler, errorHandler,
-        {
-            "Title": e.jsonContent["wp:Text1"], "Subtitle": e.jsonContent["wp:Text2"], "NavigationUri": e.jsonContent["wp:Param"]
-        });
-        }
-
-        if (e.type == "raw" && e.jsonContent) {
-            alert(e.jsonContent.Body);
-        }
-
+       
     }
     
 }; 
@@ -785,11 +708,8 @@ $(document).on('pagecontainershow', function (e, ui) {
                         //$.mobile.changePage("#year_calendar"); 
                         $.mobile.changePage( "#year_calendar", {transition: "none", reloadPage:false} );
 
-                         function myFunctiond() { 
-         
-                            var newHTMLD = [];
-                            
-                          
+                         function myFunctiond() {  
+                            var newHTMLD = []; 
                              $.each(result.posts, function( i, val ) { 
                                     output ="<table data-role='table' data-mode='columntoggle' class='ui-responsive ui-shadow' id='myTable2' style='width:100%;background-color:#F7F9FA;'>" +
                                             "<thead><tr style='background-color:#F7AB48;'><th colspan='2' style='text-align:left;'> Personal Information </th></tr></thead>" +

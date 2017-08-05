@@ -708,11 +708,8 @@ $(document).on('pagecontainershow', function (e, ui) {
                         //$.mobile.changePage("#year_calendar"); 
                         $.mobile.changePage( "#year_calendar", {transition: "none", reloadPage:false} );
 
-                         function myFunctiond() { 
-         
-                            var newHTMLD = [];
-                            
-                          
+                         function myFunctiond() {  
+                            var newHTMLD = []; 
                              $.each(result.posts, function( i, val ) { 
                                     output ="<table data-role='table' data-mode='columntoggle' class='ui-responsive ui-shadow' id='myTable2' style='width:100%;background-color:#F7F9FA;'>" +
                                             "<thead><tr style='background-color:#F7AB48;'><th colspan='2' style='text-align:left;'> Personal Information </th></tr></thead>" +
