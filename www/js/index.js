@@ -241,7 +241,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -344,7 +344,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -443,7 +443,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -566,7 +566,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -700,7 +700,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                        "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -813,7 +813,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +
                         "<div data-role='content'>" + 
                        "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "</p>"+
                         "</div></div>"; 
@@ -931,7 +931,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +
                         "<div data-role='content'>" + 
                        "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "</p>"+
                         "</div></div>"; 
@@ -1056,7 +1056,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -1162,7 +1162,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                        "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -1263,7 +1263,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -1399,12 +1399,11 @@ $(document).on('pagecontainershow', function (e, ui) {
 
             $(document).on('click', '#feessubmit', function() { // catch the form's submit event
 
-            if($('#usernameh').val().length > 0 && $('#passwordh').val().length > 0){
-
+            if($('#usernamegh').val().length > 0 && $('#passwordgh').val().length > 0){ 
 
                     //$.ajax({url: 'http://app.themaxtech.dev/api/ios/fees.php', 
                     $.ajax({url: 'http://app.themaxtech.com/api/ios/fees.php', 
-                    data: {action : 'authorization', formData : $('#check-report').serialize()},
+                    data: {action : 'authorization', formData : $('#check-fees').serialize()},
                     type: 'post',                  
                     async: 'true',
                     dataType: 'json',
@@ -1416,7 +1415,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         // This callback function will trigger on data sent/received complete   
                         $.mobile.loading('hide'); // This will hide Ajax spinner
                     },
-                    success: function (result) {
+                     success: function (result) {
                         // Check if authorization process was successful
 
                         var counter = 0; 
@@ -1443,7 +1442,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                                    " <a href='#arunhome' class='ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all'></a>" +
                                     "</td>" +
                                    "  <td>" +
-                                    "  <h2> Fees & Accounts </h2> " +  
+                                    "  <h2> Fees Detail </h2> " +  
                                     " </td>" +
                                     "</tr>" +
                                   "</table> " +
@@ -1451,49 +1450,86 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
                         $.mobile.activePage.after(stud_prof);
                         //$.mobile.changePage("#year_calendar"); 
-                         $.mobile.changePage( "#year_calendar", {transition: "none", reloadPage:false} ); 
+                         $.mobile.changePage( "#year_calendar", {transition: "none", reloadPage:false} );
+                        
+
                      
                         function myFunctiond() { 
          
                             var newHTMLD = [];
                             
-                            //newHTMLD.push("");
+                            var mychk = 'hk';
 
-                             $.each(result.poststr, function( i, val ) { 
-                                    output ="<table data-role='table' data-mode='columntoggle' class='ui-responsive ui-shadow' id='myTable2' style='width:100%;background-color:#F7F9FA;'>" + 
-                                            "<thead><tr style='background-color:#F7AB48;'><th> Fees Amount </th><th>" + result.poststr[i].atotal + "</th></tr> " + 
-                                            "<tr style='background-color:#90C3D4;'><th> Fees Pending </th><th>" + result.poststr[i].abalance + "</th></tr></thead> " + 
-                                            "<tbody><tr><td> Bill No </td><td>" + result.poststr[i].ano + "</td></tr>"+
-                                            "<tr><td> Date </td><td>" + result.poststr[i].adate + "</td></tr>"+
-                                            "<tr><td> Amount Paid </td><td>" + result.poststr[i].aamount + "</td></tr></tbody></table><br>";        
-
-                                      newHTMLD.push(output); 
-                                     
-                             }); 
                             
-                             okfine = $(".ui-content").html(newHTMLD.join("")); 
-                            return okfine; 
+                            //newHTMLD.push("<tr><td> "+ result.sno +" </td><td>" ); 
+                             $.each(result.poststr, function( i, val ) { 
 
-                             
+                                    if (mychk === 'hk') {
+
+                                      newHTMLD.push("<table data-role='table' data-mode='columntoggle' class='ui-responsive ui-shadow' id='myTable2' style='width:100%;background-color:#F7F9FA;'>" + 
+                              "<thead><tr style='background-color:#F7AB48;'><th colspan='2'>" + result.poststr[i].mid + "</th></tr><tr style='background-color:#90C3D4;'><th> Particulars </th><th>Fee</th></tr></thead><tbody>");
+
+                                    };
+
+                                    if ( (mychk != 'hk'  &&  result.poststr[i].mid != mychk))  {
+
+                                             
+                                            output ="</tbody> </br> <table data-role='table' data-mode='columntoggle' class='ui-responsive ui-shadow' id='myTable2' style='width:100%;background-color:#F7F9FA;'>" + 
+                                            "<thead><tr style='background-color:#F7AB48;'><th colspan='2'>" + result.poststr[i].mid + "</th></tr><tr style='background-color:#90C3D4;'><th> Particulars </th>" +
+                                            "<th>Fee</th></tr></thead><tbody><tr><td>" + result.poststr[i].sub1 + "</td><td>" + result.poststr[i].m1 + "</td></tr>" + 
+                                            "<tr><td>" + result.poststr[i].sub2 + "</td><td>" + result.poststr[i].m2 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub3 + "</td><td>" + result.poststr[i].m3 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub4 + "</td><td>" + result.poststr[i].m4 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub5 + "</td><td>" + result.poststr[i].m5 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub6 + "</td><td>" + result.poststr[i].m6 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub7 + "</td><td>" + result.poststr[i].m7 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub8 + "</td><td>" + result.poststr[i].m8 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub9 + "</td><td>" + result.poststr[i].m9 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub10 + "</td><td>" + result.poststr[i].m10 + "</td></tr>";
+                                        //console.log(output); 
+                                        newHTMLD.push(output);
+
+
+                                            }  else { 
+                                            
+                                            output ="<tr><td>" + result.poststr[i].sub1 + "</td><td>" + result.poststr[i].m1 + "</td></tr>" + 
+                                            "<tr><td>" + result.poststr[i].sub2 + "</td><td>" + result.poststr[i].m2 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub3 + "</td><td>" + result.poststr[i].m3 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub4 + "</td><td>" + result.poststr[i].m4 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub5 + "</td><td>" + result.poststr[i].m5 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub6 + "</td><td>" + result.poststr[i].m6 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub7 + "</td><td>" + result.poststr[i].m7 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub8 + "</td><td>" + result.poststr[i].m8 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub9 + "</td><td>" + result.poststr[i].m9 + "</td></tr>"+
+                                            "<tr><td>" + result.poststr[i].sub10 + "</td><td>" + result.poststr[i].m10 + "</td></tr>"; 
+                                    //console.log(output); 
+                                    newHTMLD.push(output); 
+                                            } 
+
+                                            mychk = result.poststr[i].mid;
+                            });
+                               
+                            okfine = $(".ui-content").html(newHTMLD.join("")); 
+                            return okfine;  
                         }
                 
                         $("#myTable2", $.mobile.activePage).val(myFunctiond());
                          
                         } else {
-                                alert('Fees & Accounts not Found!');
-                        }  
+                                alert('Fee details not Found!');
+                        }
                     },
                     error: function (request,error) {
                         // This callback function will trigger on unsuccessful action               
                         alert('Network error has occurred please try again!'); 
                     }
-                });  
+                });
 
             } else {
                 alert('Please check Class, Sec fields');
@@ -1523,15 +1559,9 @@ $(document).on('pagecontainershow', function (e, ui) {
                         $.mobile.loading('hide'); // This will hide Ajax spinner
                     },
                     success: function (result) {
-                        // Check if authorization process was successful
-
-                        var counter = 0; 
-                         
-                       if(result.status == 'success') { 
-                            
-                     
-                        
-                
+                        // Check if authorization process was successful 
+                        var counter = 0;  
+                       if(result.status == 'success') {  
                         stud_prof = 
                         "<style>" +
                         "th {" +
@@ -1559,7 +1589,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -1567,17 +1597,11 @@ $(document).on('pagecontainershow', function (e, ui) {
                         $.mobile.activePage.after(stud_prof);
                         //$.mobile.changePage("#year_calendar"); 
                         $.mobile.changePage( "#year_calendar", {transition: "none", reloadPage:false} );
-                        function myFunctiond() { 
-         
-                            var newHTMLD = [];
-
-
-
+                        function myFunctiond() {  
+                            var newHTMLD = []; 
                              var mychk = 'aa';
-                             $.each(result.posts, function( i, val ) {  
-
-                                    if (mychk === 'aa') {
-
+                             $.each(result.posts, function( i, val ) {   
+                                    if (mychk === 'aa') { 
                                        newHTMLD.push("<table data-role='table' data-mode='columntoggle' class='ui-responsive ui-shadow' id='myTable2'  style='width:100%;background-color:#F7F9FA;'>" + 
                                     "<thead><tr style='background-color:#F7AB48;'><th colspan='4' style='text-align:left;'>" + result.posts[i].smid  + " </th></tr><tr style='background-color:#90C3D4;'><th>Subject</th><th>Portions</th><th>Date</th><th>Session</th></tr></thead><tbody>");
  
@@ -1686,7 +1710,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -1768,9 +1792,7 @@ $(document).on('pagecontainershow', function (e, ui) {
 
                         var counter = 0; 
                          
-                       if(result.status == 'success') { 
-                            
-                     
+                       if(result.status == 'success') {  
                         
                 
                         stud_prof = 
@@ -1800,7 +1822,7 @@ $(document).on('pagecontainershow', function (e, ui) {
                         " </div>" +   
                         "<div data-role='content'>" + 
                         "</div>" +
-                        "<div class='ui-body-f' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
+                        "<div class='ui-body-gh' data-role='footer' data-position='fixed' data-tap-toggle='false' data-transition='none' data-theme='h'> "+
                              "<p style='text-align:center;''> Powered by www.themaxtech.com  "+
                                "  </p>"+
                         "</div></div>";
@@ -1940,6 +1962,7 @@ $(document).on('pagehide', '#year_calendar', function(){
     $(this).remove();
     $( ".ui-content" ).remove();
 }); 
+ 
 
 $(document).on("pagebeforehide","year_calendar",function(event){
 
@@ -2057,6 +2080,12 @@ $(document).on('pageshow', '#arunhome', function(){
        $("#classh", $.mobile.activePage).val(userHandler.userclass);
        $("#sech", $.mobile.activePage).val(userHandler.usersec);
        $("#schoolcodeh", $.mobile.activePage).val(userHandler.schoolcode);
+
+       $("#usernamegh", $.mobile.activePage).val(userHandler.username);
+       $("#passwordgh", $.mobile.activePage).val(userHandler.userpass);
+       $("#classgh", $.mobile.activePage).val(userHandler.userclass);
+       $("#secgh", $.mobile.activePage).val(userHandler.usersec);
+       $("#schoolcodegh", $.mobile.activePage).val(userHandler.schoolcode);
 
        $("#usernamei", $.mobile.activePage).val(userHandler.username);
        $("#passwordi", $.mobile.activePage).val(userHandler.userpass);
