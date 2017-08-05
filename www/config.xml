@@ -5,7 +5,7 @@
       Welcome to School Access
     </description>
     <author email="maxtechapps@gmail.com" href="http://themaxtech.com">
-        ARUN G
+        THEMAXTECH
     </author>
     <feature name="http://api.phonegap.com/1.0/device" /> 
     <preference name="permissions" value="none" />
