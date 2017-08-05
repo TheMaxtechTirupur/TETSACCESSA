@@ -3,7 +3,7 @@
     <description>
       Welcome to School Access
     </description>
-    <author email="maxtechapps@gmail.com" href="http://themaxtech.com">THEMAXTECH</author>
+    <author email="maxtechapps@gmail.com" href="http://themaxtech.com">1715THEMAXTECH</author>
     <feature name="http://api.phonegap.com/1.0/device" /> 
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="cli-6.0.0" />
